@@ -28,3 +28,50 @@ h2{
     font-size: 30px;
     text-align: center;
 }
+.list-of-time {
+    padding: 0 4em;
+  }
+  
+  .list-of-time * {
+    margin-top: 1.2em;
+  }
+  
+  .list-of-time > li {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--text-color);
+  }
+  
+  .list-of-time .time {
+    font-weight: 700;
+  }
+  
+  .quote {
+    color: var(--text-color);
+    padding-top: 1em;
+    border-top: 1px solid var(--time-color);
+    margin: 2em 4em;
+    text-align: center;
+  }
+  
+  .quote > p {
+    margin-bottom: 0.5em;
+  }
+  
+  /* footer */
+  .footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.5em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+  }
+  .media__img{
+    margin: 0px auto;
+  }
